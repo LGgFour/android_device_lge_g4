@@ -2,6 +2,12 @@ export ALLOW_MISSING_DEPENDENCIES=true
 export USE_NINJA=true
 export LLVM_ENABLE_THREADS=1
 
+############# /e/ section ###############
+#export EOS_BRANCH_NAME="v0.9.3-pie"
+export EOS_BRANCH_NAME="v1-pie"
+export EOS_OTA_URL="http://sfxota.binbash.rocks:8009/e-os/pie"
+export EOS_RELEASE_TYPE="UNOFFICIAL"
+
 add_lunch_combo lineage_f500_usu-userdebug
 add_lunch_combo lineage_f500_usu-user
 add_lunch_combo lineage_f500_usu_eng
