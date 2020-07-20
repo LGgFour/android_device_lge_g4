@@ -9,6 +9,7 @@ export EOS_OTA_URL="http://sfxota.binbash.rocks:8009/e-os/pie"
 export EOS_RELEASE_TYPE="UNOFFICIAL"
 export CUSTOM_PACKAGES="MuPDF GmsCore GsfProxy FakeStore com.google.android.maps.jar Telegram Signal Mail BlissLauncher BlissIconPack MozillaNlpBackend OpenWeatherMapWeatherProvider AccountManager MagicEarth OpenCamera eDrive Weather Notes Tasks NominatimNlpBackend DroidGuard OpenKeychain Message Browser BrowserWebView Apps LibreOfficeViewer"
 export OPENDELTA_BUILDS_JSON=true
+export EOS_OTA_CLEARTEXT=true
 
 add_lunch_combo lineage_f500_usu-userdebug
 add_lunch_combo lineage_f500_usu-user
