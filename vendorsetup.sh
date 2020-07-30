@@ -3,13 +3,16 @@ export USE_NINJA=true
 export LLVM_ENABLE_THREADS=1
 
 ############# /e/ section ###############
-#export EOS_BRANCH_NAME="v0.9.3-pie"
 export EOS_DEVICE=h815
 export EOS_BRANCH_NAME="v1-pie"
-export EOS_RELEASE_TYPE="UNOFFICIAL"
-export EOS_CUSTOM_PACKAGES="MuPDF GmsCore GsfProxy FakeStore com.google.android.maps.jar Telegram Signal Mail BlissLauncher BlissIconPack MozillaNlpBackend OpenWeatherMapWeatherProvider AccountManager MagicEarth OpenCamera eDrive Weather Notes Tasks NominatimNlpBackend DroidGuard OpenKeychain Message Browser BrowserWebView Apps LibreOfficeViewer"
-export EOS_OTA_URL="http://sfxota.binbash.rocks:8009/e-os/pie/api"
+export EOS_RELEASE_TYPE="CUSTOM"
+export EOS_CUSTOM_PACKAGES="MuPDF GmsCore GsfProxy FakeStore com.google.android.maps.jar Mail BlissLauncher BlissIconPack MozillaNlpBackend OpenWeatherMapWeatherProvider AccountManager MagicEarth OpenCamera eDrive Weather Notes Tasks NominatimNlpBackend DroidGuard OpenKeychain Message Browser BrowserWebView LibreOfficeViewer noEOSappstore"
 export EOS_OTA_CLEARTEXT=true
+export EOS_USE_CCACHE=true
+export EOS_CCACHE_DIR=/tmp/ccache
+export EOS_CCACHE_SIZE=14G
+export EOS_TMP_DIR=/tmp/eos
+export EOS_ZIP_DIR=/tmp/eos/zips
 
 add_lunch_combo lineage_f500_usu-userdebug
 add_lunch_combo lineage_f500_usu-user
