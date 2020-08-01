@@ -3,7 +3,7 @@ export USE_NINJA=true
 export LLVM_ENABLE_THREADS=1
 
 ############# /e/ section ###############
-export EOS_DEVICE=h815
+#export EOS_DEVICE=h815
 export EOS_BRANCH_NAME="v1-pie"
 export EOS_RELEASE_TYPE="CUSTOM"
 export EOS_CUSTOM_PACKAGES="MuPDF GmsCore GsfProxy FakeStore com.google.android.maps.jar Mail BlissLauncher BlissIconPack MozillaNlpBackend OpenWeatherMapWeatherProvider AccountManager MagicEarth OpenCamera eDrive Weather Notes Tasks NominatimNlpBackend DroidGuard OpenKeychain Message Browser BrowserWebView LibreOfficeViewer noEOSappstore"
