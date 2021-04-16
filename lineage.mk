@@ -33,6 +33,3 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # inherit vendor e
 $(call inherit-product, vendor/e/config/common.mk)
-
-# inherit vendor e mod
-$(call inherit-product, vendor/e-mod/config/common.mk)
