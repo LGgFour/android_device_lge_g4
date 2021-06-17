@@ -32,4 +32,4 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # inherit vendor e
-$(call inherit-product, vendor/e/config/common.mk)
+$(call inherit-product-if-exists, vendor/e/config/common.mk)
