@@ -99,6 +99,7 @@ if that looks good do the change:
 run the following commands to be sure nothing was missed:
 
 'sed -i 's/lineage/mynewrom/' AndroidProducts.mk'
+
 'sed -i 's/lineage/mynewrom/' mynewrom.mk'
 
 #### for 7:
