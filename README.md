@@ -98,13 +98,13 @@ if that looks good do the change:
 
 run the following commands to be sure nothing was missed:
 
-'sed -i 's/lineage/mynewrom/' AndroidProducts.mk'
+`sed -i 's/lineage/mynewrom/' AndroidProducts.mk`
 
-'sed -i 's/lineage/mynewrom/' mynewrom.mk'
+`sed -i 's/lineage/mynewrom/' mynewrom.mk`
 
 #### for 7:
 
-run the command 'grep -r lineage *.mk' to verify that there are no entries related to lineage left
+run the command `grep -r lineage *.mk` to verify that there are no entries related to lineage left
 
 #### for 8 & 9:
 
