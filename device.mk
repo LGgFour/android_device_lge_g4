@@ -43,10 +43,6 @@ PRODUCT_PACKAGES_ENG += \
 DEBUG_ME += fstab
 endif
 
-# Gps
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
-
 PRODUCT_PACKAGES += \
     telephony-ext \
     ims-ext-common \
