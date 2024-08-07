@@ -6,4 +6,4 @@
 # Currently we dont have e2fsck compiled. So fs check would failed.
 
 #<src>                                     <mnt_point>     <type>  <mnt_flags and options>                                             <fs_mgr_flags>
-/dev/block/bootdevice/by-name/cust         /cust           ext4    ro,nosuid,nodev,barrier=1,noauto_da_alloc                           defaults,notrim
+/dev/block/bootdevice/by-name/cust         /cust           ext4    ro,nosuid,nodev,barrier=1,noauto_da_alloc                           defaults,check,notrim,latemount

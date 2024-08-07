@@ -1,2 +1,2 @@
-on early-fs
-    mount_all fstab.g4
+on fs
+    mount_all fstab.g4 --late
