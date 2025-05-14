@@ -50,8 +50,8 @@ COMMON_LUNCH_CHOICES := \
 	lineage_h815_usu-userdebug \
 	lineage_h815_usu-user \
 	lineage_h815_usu-eng \
-        lineage_h818-user \
-	lineage_h818-eng \
+        lineage_h818_usu-user \
+	lineage_h818_usu-eng \
 	lineage_h818_usu-userdebug \
 	lineage_ls991_usu-userdebug \
 	lineage_ls991_usu-user \
